@@ -26,7 +26,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
-      - name: Archive tests results
-        if: always()
+      
 
       

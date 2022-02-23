@@ -22,5 +22,3 @@ jobs:
           container_name: ares
           extra_args: '--pattern *.zip'
           sync: false
-      - name: Archive tests results
-        if: always()
