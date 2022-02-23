@@ -19,6 +19,6 @@ jobs:
         with:
           source_dir: './'
           connection_string: ${{ secrets.CONNECTIONSTRING }}
-          container_name: ares
+          container_name: test
           extra_args: '--pattern *.zip'
           sync: false
